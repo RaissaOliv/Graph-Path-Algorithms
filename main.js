@@ -115,7 +115,7 @@ async function dijkstra(cidade, inicio, destino, visitados = new Set()) {
                     no = anterior[no];
                     caminho.unshift(no);
                 }
-                return "You arrived at your estination: " + destino + ". Distance: " + distancia + ". Path: " + caminho.join(' -> ');
+                return "You arrived at your estination: " + destino + ". Distance: " + distancia + ". Best path: " + caminho.join(' -> ');
             }
             
             let vizinhos = cidade[no];
