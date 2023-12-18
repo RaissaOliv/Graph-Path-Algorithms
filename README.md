@@ -3,7 +3,7 @@
 # About the project
 
   This is a college project submission for the subject Graph Theory. This code main use is to show the execution of the shortest path algorithms dfs, bfs and dijkstra on a fictional map, allowing the user to see the path the algorithm is doing clearly on the HTML.
-[Github pages: ](https://raissaoliv.github.io/Graph-Path-Algorithms/)
+[Try the website here! ](https://raissaoliv.github.io/Graph-Path-Algorithms/)
 
 # Status
 
