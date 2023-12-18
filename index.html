@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+    <link  rel= 'stylesheet' href="styles.css" type="text/css" media="screen"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade</title>
+</head>
+<body>
+    <h1 class="titulo">Path problems in maps</h1>
+    <h2>Choose an algorithm to execute and watch it go through the map below!</h2>
+    <br>
+<div class="main">
+    <div class="teste">
+        <div id="school">
+            <p>school</p>
+        </div>
+    
+        <div id="hospital">
+            <p>hospital</p>
+        </div>
+
+        <div id="nightclub">
+            <p>nightclub</p>
+        </div>
+    </div>
+
+    <div class="teste">
+        <div id="cemetery">
+            <p>cemetery</p>
+        </div>
+
+        <div id="bakery">
+            <p>bakery</p>
+        </div>
+
+        <div id="church">
+            <p>church</p>
+        </div>
+
+    </div>
+
+    <div class="teste">
+        <div id="supermarket">
+            <p>supermarket</p>
+        </div>
+
+        <div id="park">
+            <p>park</p>
+        </div>
+
+        <div id="museum">
+            <p>museum</p>
+        </div>
+    </div>
+
+    <div class="teste">
+        <div id="pizzeria">
+            <p>pizzeria</p>
+        </div>
+
+        <div id="mall">
+            <p>mall</p>
+        </div>
+
+        <div id="college">
+            <p>college</p>
+        </div>
+    </div>
+</div>
+
+<div class="inputs">
+<input id="inicio" placeholder="type the starting place" class="input"/>
+<input id="destino" placeholder="type the destination" class="input"/>
+</div>
+
+<div class="botoes">
+<button onclick="initDfs()" class="botao">DFS</button>
+<button onclick="initBfs()"class="botao">BFS</button>
+<button onclick="initDijkstra()"class="botao">DIJKSTRA</button>
+</div>
+
+<p id="resultado"></p>
+
+</div>
+</div>
+</body>
+</html>

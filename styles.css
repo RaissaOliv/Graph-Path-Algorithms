@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #DCEDFF;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #7B9DCF;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.lugar {
+    background-color: #94b0da;
+    background-image: url('./assets/naoVisitado.png');
+}
+
+.inputs {
+    flex-direction: row;
+    margin: 1%;
+}
+
+.input {
+    border-color: transparent;
+    color:#474747;
+}
+
+.botoes {
+    flex-direction: row;
+}
+
+.titulo {
+    color: #334195
+}
+
+.botao {
+    border-color: transparent;
+    background-color:#7B9DCF;
+    color: #001136;
+}
+
+.botao:hover {
+    background-color: #334195;
+    color: #DCEDFF;
+}
+
+.perguntas {
+    display: flex;
+    flex-direction: row;
+}
+.popup {
+    position:fixed;
+    display: none;
+}
