@@ -2,10 +2,10 @@
 
 # Index
 
-* [About the project] (#About the project)
+* [About the project] (#About-the-project)
 * [Status] (#Status)
 * [Functionalites] (#Functionalites)
-* [Techologies used] (#Technologies used)
+* [Techologies used] (#Technologies-used)
 
 #About the project
 
