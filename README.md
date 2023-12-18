@@ -1,12 +1,5 @@
 <h1 align="center"> Shortest path algorithms exercise </h1>
 
-# Index
-
-* [About the project] (#About-the-project)
-* [Status] (#Status)
-* [Functionalites] (#Functionalites)
-* [Techologies used] (#Technologies-used)
-
 #About the project
 
   This is a college project submission for the subject Graph Theory. This code main use is to show the execution of the shortest path algorithms dfs, bfs and dijkstra on a fictional map, allowing the user to see the path the algorithm is doing clearly on the HTML.
