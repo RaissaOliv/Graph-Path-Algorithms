@@ -13,7 +13,7 @@ In development. The main functionalities are done but there are some details tha
 
 - Choose the destination and the starting point that you want
 - Choose between three shortest path algorithms: DFS, BFS, DIJKSTRA
-- Watch how the algorithm works by seeing the html marking down the nodes that are being currently visited by the algorithm
+- Watch how the algorithm works by watching the html mark down the nodes that are being currently visited by the algorithm
 
 # Technologies used
 
