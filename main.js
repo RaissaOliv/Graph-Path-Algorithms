@@ -136,22 +136,28 @@ async function dijkstra(cidade, inicio, destino, visitados = new Set()) {
 }
 // functions that get the starting and ending points and make the search algorithms calls to the html
 async function initDfs(){
-    limparVisita();
+    limparVisita(); 
     destino = document.getElementById('destino').value
+    destino = destino.toLowerCase()
     inicio = document.getElementById('inicio').value
+    inicio = inicio.toLowerCase()
     document.getElementById('resultado').innerHTML = await dfs(cidade, inicio, destino)
 }
 
 async function initBfs(){
     limparVisita();
     destino = document.getElementById('destino').value
+    destino = destino.toLowerCase()
     inicio = document.getElementById('inicio').value
+    inicio = inicio.toLowerCase()
     document.getElementById('resultado').innerHTML = await Bfs(cidade, inicio, destino)
 }
 
 async function initDijkstra(){
     limparVisita();
     destino = document.getElementById('destino').value
+    destino = destino.toLowerCase()
     inicio = document.getElementById('inicio').value
+    inicio = inicio.toLowerCase()
     document.getElementById('resultado').innerHTML = await dijkstra(cidade, inicio, destino)
 }
